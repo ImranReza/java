@@ -7,6 +7,7 @@ public class StarPatternOne {
         System.out.println("Enter A Number : ");
         
         int n = inpuScanner.nextInt();
+        inpuScanner.close();
 
         //logic 
         for(int i=1;i<=n;i++){
