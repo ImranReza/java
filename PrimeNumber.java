@@ -11,6 +11,7 @@ public class PrimeNumber {
 
         int i;
 
+
         for(i=2;i<number;i++){
             if(number%i == 0){
                 System.out.println("The Number is Not Prime Number: " + number);
@@ -18,8 +19,10 @@ public class PrimeNumber {
             }
         }
 
-        if(number == i){
-            System.out.println("The Number is Prime Number: " + number);
+        if(number<=1){
+            System.out.println("The Number is Not Prime Number: " + number);
+        }else if(number == i){
+            System.out.println("The Number is Prime Number " + number);
         }
     }
     
